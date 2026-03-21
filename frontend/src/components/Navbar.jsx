@@ -30,7 +30,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Heart className="h-8 w-8 text-red-500" />
+           <img src="/logo192.png" alt="MediDose Logo" className="h-12 w-12" />
+            
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               MediDose
             </span>
