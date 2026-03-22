@@ -29,8 +29,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-           <img src="/logo192.png" alt="MediDose Logo" className="h-12 w-12" />
+          <Link to="/" className="flex items-center space-x-1">
+           <img src="/logo192.png" alt="MediDose Logo" className="h-16 w-16" />
             
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               MediDose
