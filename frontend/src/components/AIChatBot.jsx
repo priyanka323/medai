@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 
 export default function AIChatBot({ onRecommendation }) {
   const [messages, setMessages] = useState([
-    { role: 'assistant', content: '👋 Hello! I\'m your medical assistant. I can help you:\n\n• Calculate medicine doses\n• Explain clinical calculators\n• Provide medication information\n\nTry: "Calculate dose for 20kg child paracetamol" or ask about our calculators!' }
+    { role: 'assistant', content: '👋 Hello! I\'m your medical assistant. I can help you:\n\n• Calculate medicine doses\n• Explain clinical calculators\n• Provide medication information\n\nTry: "Calculate dose for 50kg, age 22 – Paracetamol" or ask about our calculators!' }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -163,7 +163,7 @@ export default function AIChatBot({ onRecommendation }) {
           </button>
         </div>
         <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 text-center">
-          💡 Try: "Calculate dose for 20kg child paracetamol"
+          💡 Try: "Calculate dose for 50kg, age 22 – Paracetamol"
         </p>
       </div>
     </div>

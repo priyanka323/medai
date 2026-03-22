@@ -22,6 +22,7 @@ export default function Navbar() {
     { to: '/calculators', icon: Calculator, label: 'Calculators' },
     { to: '/about', icon: Info, label: 'About' },
     { to: '/contact', icon: Mail, label: 'Contact' },
+    { to: '/login', icon: LogIn, label: 'Sign In' },
   ];
 
   return (
