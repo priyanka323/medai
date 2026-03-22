@@ -16,9 +16,7 @@ export default function HomePage() {
     <div className="space-y-16">
       {/* Hero Section */}
       <div className="text-center py-16 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl">
-        <div className="flex justify-center mb-6">
-          <img src="/logo192.png" alt="MediDose Logo" className="h-12 w-12" />
-        </div>
+        
         <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
           Medical Dose Calculator
         </h1>
