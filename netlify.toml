@@ -1,7 +1,7 @@
 [build]
   base = "frontend"
   command = "npm install && chmod +x node_modules/.bin/react-scripts && npm run build"
-  publish = "frontend/build"
+  publish = "build"
 
 [build.environment]
   REACT_APP_API_URL = "https://medai-wlfd.onrender.com"
