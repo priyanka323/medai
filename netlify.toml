@@ -4,7 +4,7 @@
   publish = "build"
 
 [build.environment]
-  REACT_APP_API_URL = "https://medi-dose.onrender.com/api"
+  REACT_APP_API_URL = "https://medai-wlfd.onrender.com"
 
 [[redirects]]
   from = "/*"
