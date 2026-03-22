@@ -415,7 +415,6 @@ export default function CalculatorPage() {
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [aiSuggestion, setAiSuggestion] = useState(null);
   const [dbStatus, setDbStatus] = useState(null);
   const [medicineCount, setMedicineCount] = useState(0);
 
@@ -468,7 +467,6 @@ export default function CalculatorPage() {
   };
 
   const handleAISuggestion = (suggestion) => {
-    setAiSuggestion(suggestion);
     if (suggestion.medicine) {
       setSelectedMed(suggestion.medicine);
       toast.success('AI suggestion applied!');
