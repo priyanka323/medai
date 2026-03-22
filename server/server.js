@@ -49,4 +49,5 @@ app.get('/api/db-check', async (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+  console.log(`Allowed origins: https://medidoseai.netlify.app`);
 });
